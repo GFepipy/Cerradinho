@@ -7,7 +7,7 @@ import ProductPage from './pages/ProductPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Cerradinho/">
       <div className="min-h-[100dvh] bg-bg-light text-brand-black flex flex-col relative w-full overflow-x-hidden">
         {/* Blueprint grid background container */}
         <div className="fixed inset-0 pointer-events-none z-[-1] blueprint-grid mix-blend-multiply opacity-50"></div>

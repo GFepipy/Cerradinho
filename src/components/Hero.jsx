@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
 
         {/* Image Right */}
-        <div className="relative flex items-center justify-center order-2 lg:order-2 min-h-[50vh] lg:min-h-full">
+        <div className="relative flex items-center justify-center order-2 min-h-[50vh] lg:min-h-full">
           <motion.div
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
