@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="max-w-[1440px] mx-auto w-full px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 relative z-10 pt-32 pb-20">
 
         {/* Text Content Left */}
-        <div className="flex flex-col justify-center order-2 lg:order-1">
+        <div className="flex flex-col justify-center order-1">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ const Hero = () => {
             <span className="inline-block py-1.5 px-3 bg-brand-teal/10 text-brand-teal border border-brand-teal/20 text-xs font-bold uppercase tracking-widest clip-chamfer mb-6">
               Curadoria de Excelência
             </span>
-            <h1 className="text-[72px] font-display font-semibold text-brand-black leading-[1.05] tracking-tighter mb-8 max-w-[15ch]">
+            <h1 className="text-[60px] md:text-[56px] lg:text-[72px] font-display font-semibold text-brand-black leading-[1.05] tracking-tighter mb-8 max-w-[15ch]">
               Compra Direta de <span className="text-brand-teal block">Usinas de Ponta.</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 font-sans leading-relaxed max-w-[42ch] mb-12">
@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
 
         {/* Image Right */}
-        <div className="relative flex items-center justify-center order-1 lg:order-2 min-h-[50vh] lg:min-h-full">
+        <div className="relative flex items-center justify-center order-2 lg:order-2 min-h-[50vh] lg:min-h-full">
           <motion.div
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
