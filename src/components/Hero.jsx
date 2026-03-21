@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from '@phosphor-icons/react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -33,10 +34,10 @@ const Hero = () => {
                 Ver Máquinas Disponíveis
                 <ArrowRight size={20} weight="bold" className="group-hover:translate-x-1 transition-transform" />
               </button>
-              <div className="p-[2px] bg-brand-black/20 clip-chamfer hover:bg-brand-black text-brand-black hover:text-white transition-all duration-300 ease-heavy-glide w-full sm:w-auto h-[68px]">
-                <button className="bg-bg-light hover:bg-transparent w-full h-full px-8 py-4 font-bold text-lg clip-chamfer transition-colors flex items-center justify-center gap-3">
-                  Entenda a Revolução
-                </button>
+              <div className="p-[2px] bg-brand-teal clip-chamfer hover:bg-brand-black text-brand-black hover:text-white transition-all duration-300 ease-heavy-glide w-full sm:w-auto h-[68px]">
+                <Link to="/quiz" className="bg-bg-light hover:bg-transparent w-full h-full px-8 py-4 font-bold text-lg clip-chamfer transition-colors flex items-center justify-center gap-3">
+                  Fazer o Quiz
+                </Link>
               </div>
             </div>
           </motion.div>

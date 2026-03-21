@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
+import Quiz from './pages/Quiz';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/produto/john-deere-8r-410" element={<ProductPage />} />
+          <Route path="/quiz" element={<Quiz />} />
         </Routes>
 
         <Footer />

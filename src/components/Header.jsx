@@ -34,6 +34,7 @@ const Header = () => {
             </a>
             <a href="#pecas" className="hover:text-brand-teal transition-colors">Peças</a>
             <a href="#sobre" className="hover:text-brand-teal transition-colors">Sobre Nós</a>
+            <Link to="/quiz" className="hover:text-brand-teal transition-colors font-bold text-brand-teal">Descubra sua Máquina</Link>
           </nav>
           
           <div className="flex items-center gap-4">
