@@ -5,7 +5,6 @@ import Differentials from '../components/Differentials';
 import AboutUs from '../components/AboutUs';
 import Clients from '../components/Clients';
 import Testimonials from '../components/Testimonials';
-import News from '../components/News';
 import Contact from '../components/Contact';
 
 function Home() {
@@ -17,7 +16,6 @@ function Home() {
       <AboutUs />
       <Clients />
       <Testimonials />
-      <News />
       <Contact />
     </main>
   );
